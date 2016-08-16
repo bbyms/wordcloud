@@ -94,8 +94,9 @@ var WordCloudApp = function WordCloudApp() {
       ellipticity: 1 }
   ];
 
-  var sansSerifFonts = '"Trebuchet MS", "Heiti TC", "微軟正黑體", ' +
-    '"Arial Unicode MS", "Droid Fallback Sans", sans-serif';
+  var sansSerifFonts = '"Lato", "Lato", "微軟正黑體", ' +
+  '"Arial", "Droid Fallback Sans", sans-serif';
+
 
   // http://ethantw.net/projects/lab/css-reset/
   var serifFonts = 'Baskerville, "Times New Roman", "華康儷金黑 Std", ' +
@@ -112,16 +113,16 @@ var WordCloudApp = function WordCloudApp() {
     {
       fontFamily: serifFonts,
       // Sublime Text 2 colors
-      color: randomColorGenerator(['#66d9ef', '#a6e22d', '#fd9720', '#a6e22a',
-                                   '#a581ff', '#f92772']),
-      backgroundColor: '#272822'
+      color: randomColorGenerator(['#2a93fc', '#1f6ebc', '#ff5252', '#ffc759',
+                                   '#fcdc5d', '#b3de62']),
+      backgroundColor: '#ffffff'
     },
     {
       fontFamily: sansSerifFonts,
       // http://colorschemedesigner.com/#3o51Ay9OG-dM6
-      color: randomColorGenerator(['#07ABDA', '#63D6F6', '#0F7BDC', '#69B4F7',
-                                  '#00DBB6', '#376F65', '#004438', '#5FF7DD']),
-      backgroundColor: '#AAF7EA'
+      color: randomColorGenerator(['#2a93fc', '#1f6ebc', '#ff5252', '#ffc759',
+                                   '#fcdc5d', '#b3de62']),
+      backgroundColor: '#ffffff'
     },
     {
       fontFamily: serifFonts,
@@ -135,7 +136,7 @@ var WordCloudApp = function WordCloudApp() {
       color: randomColorGenerator(['#c30000', '#c37a00', '#650281',
                                    '#de3333', '#de5c5c', '#7e602c',
                                    '#633e00', '#481e53']),
-      backgroundColor: '#edd1a4'
+      backgroundColor: '#ffffff'
     },
     {
       fontFamily: sansSerifFonts,
